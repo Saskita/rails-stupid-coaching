@@ -1,0 +1,34 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+ $redish: #c04949;
+
+h2 {
+ color: $redish;
+ margin-top: 10%;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  // justify-content: center;
+  align-items: center;
+}
+
+input {
+  border: 2px #c04949 solid;
+  border-radius: 4px;
+
+}
+
+#champs {
+
+
+  height: 30px;
+}
+
+#button {
+  height: 35px;
+  background-color:  #c04949;
+  color : white;
+}
